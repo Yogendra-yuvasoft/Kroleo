@@ -8,7 +8,8 @@ import {
   ScrollView,
   Alert,
   ActivityIndicator,
-  AsyncStorage
+  AsyncStorage,
+  KeyboardAvoidingView
 } from 'react-native';
 import componentStyle from './Style';
 import { PropTypes } from 'prop-types';
@@ -19,11 +20,11 @@ import { Actions } from 'react-native-router-flux';
 
 class Signin extends Component {
 
-  static navigationOptions = ({ navigation }) => {
-    return {
-      header: () => null
-    }
-  };
+  // static navigationOptions = ({ navigation }) => {
+  //   return {
+  //     header: () => null
+  //   }
+  // };
 
   constructor(props){
     super(props);
@@ -70,8 +71,8 @@ class Signin extends Component {
      render(){
 
         return(
-            <View style = {componentStyle.cotnainer} >
-                   <ScrollView style = {componentStyle.scrollView}>
+            <KeyboardAvoidingView style = {componentStyle.cotnainer} >
+                   
                       <View style={componentStyle.logoView}>
                          <Image
                               source={require('../../assets/images/logo.png')}>
@@ -121,8 +122,8 @@ class Signin extends Component {
                       </TouchableOpacity>
                       </View>
                    
-                   </ScrollView>
-            </View>
+                   
+            </KeyboardAvoidingView>
           );
      }
 }

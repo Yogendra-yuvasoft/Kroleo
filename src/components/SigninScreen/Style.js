@@ -74,7 +74,7 @@ export default StyleSheet.create({
         width: 200,
         height: 50,
         alignSelf: 'center',
-        backgroundColor: 'blue',
+        backgroundColor: '#0077FF',
         borderRadius: 200/5,
         fontSize: 25
     },
@@ -105,7 +105,7 @@ export default StyleSheet.create({
         width: 200,
         height: 50,
         alignSelf: 'center',
-        backgroundColor: 'blue',
+        backgroundColor: '#0077FF',
         borderRadius: 200/5,
         fontSize: 25
     },
