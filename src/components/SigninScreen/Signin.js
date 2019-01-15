@@ -71,14 +71,16 @@ class Signin extends Component {
      render(){
 
         return(
-            <KeyboardAvoidingView style = {componentStyle.cotnainer} >
-                   
+            <ScrollView style = {componentStyle.cotnainer} >
+                    <View style={componentStyle.topContainerView}> 
                       <View style={componentStyle.logoView}>
                          <Image
                               source={require('../../assets/images/logo.png')}>
                           </Image>
                       </View>
-                      
+                    </View>
+
+                    <View style={componentStyle.bottomContainerView}>
                       <View style={componentStyle.emailBackgroundView}>
                         <Text style={componentStyle.emailText}>Email</Text>
                         <TextInput style={componentStyle.emailInputField}
@@ -121,13 +123,13 @@ class Signin extends Component {
                         <Text style={componentStyle.loginButtonText}>Register</Text>
                       </TouchableOpacity>
                       </View>
-                   
-                   
-            </KeyboardAvoidingView>
+                  </View>
+
+            </ScrollView>
           );
      }
 }
-``
+
 function mapDispatchToProps(dispatch) {
   return bindActionCreators(ActionCreators, dispatch);
 }

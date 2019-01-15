@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>4D47EB24-232E-482B-A714-3309866FA19B</key>
+		<key>96EC5679-5A6C-4FBB-B352-CD16B46A3EF8</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,9 +15,9 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4D47EB24-232E-482B-A714-3309866FA19B.xcactivitylog</string>
+			<string>96EC5679-5A6C-4FBB-B352-CD16B46A3EF8.xcactivitylog</string>
 			<key>highLevelStatus</key>
-			<string>W</string>
+			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
 			<string>Kroleo project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Building project Kroleo with scheme Kroleo and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>569149278.37619805</real>
+			<real>569241810.31191099</real>
 			<key>timeStoppedRecording</key>
-			<real>569149531.71597505</real>
+			<real>569241828.25858104</real>
 			<key>title</key>
 			<string>Building project Kroleo with scheme Kroleo and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>4D47EB24-232E-482B-A714-3309866FA19B</string>
-		</dict>
-		<key>C1874714-5743-4670-A1BA-5BAB1F89095B</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>C1874714-5743-4670-A1BA-5BAB1F89095B.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>Kroleo project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>Kroleo</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building project Kroleo with scheme Kroleo and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>569163669.32419896</real>
-			<key>timeStoppedRecording</key>
-			<real>569163877.17780304</real>
-			<key>title</key>
-			<string>Building project Kroleo with scheme Kroleo and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>C1874714-5743-4670-A1BA-5BAB1F89095B</string>
+			<string>96EC5679-5A6C-4FBB-B352-CD16B46A3EF8</string>
 		</dict>
 	</dict>
 </dict>

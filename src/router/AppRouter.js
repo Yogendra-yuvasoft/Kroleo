@@ -2,6 +2,7 @@ import React, {Component} from 'react';import {AsyncStorage} from 'react-native'
 import { Router, Scene } from 'react-native-router-flux'
 import SignIn from '../components/SigninScreen/Signin.js'
 import Register from '../components/RegisterScreen/Register.js'
+import Dashboard from '../components/DashboardScreen/Dashboard.js'
 
 class Routes extends Component{
 constructor(props){
@@ -38,6 +39,7 @@ render(){
       <Scene key = "root">
          <Scene key = "SignIn" component = {SignIn} title = "SignIn" initial = {this.state.isSignIn} />
          <Scene key = "Register" component = {Register} title = "Register" initial = {false}/>
+         <Scene key = "Dashboard" component = {Dashboard} title = "Dashboard" initial = {false}/>
       </Scene>
    </Router>
 	);

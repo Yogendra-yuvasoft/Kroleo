@@ -3,22 +3,31 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
     cotnainer: {
         backgroundColor: 'white',
-        flex: 1
+        flex: 1,
+        height: '100%'
     },
 
-    scrollView: {
-        flex: 1
+    topContainerView: {
+        
+        height: '50%',
+        alignItems: 'center',
+        justifyContent: 'center',
+
     },
 
     logoView: {
-        marginTop: 150,
         width: 100,
         height: 100,
-        alignSelf: 'center'
+    },
+
+    bottomContainerView: {
+        height: '50%',
+        alignItems: 'center',
+        justifyContent: 'center',
+        
     },
 
     emailBackgroundView: {
-        marginTop: 30,
         width: 280,
         height: 80,
         alignSelf: 'center'
@@ -44,7 +53,7 @@ export default StyleSheet.create({
     },
 
     passwordBackgroundView: {
-        marginTop: 15,
+        marginTop: 5,
         width: 280,
         height: 80,
         alignSelf: 'center'
